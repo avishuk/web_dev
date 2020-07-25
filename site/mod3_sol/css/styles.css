@@ -10,7 +10,7 @@ section {
 
 section > div {
   position: relative;
-  background-color: grey;
+  background-color: orange;
   padding: 15px 15px 15px 15px;
   margin-bottom: 30px;
   height: 1000px;
@@ -32,9 +32,6 @@ h2 {
   border: 0;
 }
 
-#collapsable-nav {
-	background-color: grey;
-}
 .navbar-brand {
   padding-top: 10px;
 }
@@ -85,6 +82,9 @@ h2 {
 
 @media (max-width: 767px) {
   /* Header */
+  #collapsable-nav {
+  	background-color: grey;
+  }
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
   }
@@ -92,8 +92,6 @@ h2 {
     font-size: 1em;
     margin-right: 5px;
   }
-
-
   /* End Header */
 
 }
