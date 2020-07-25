@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+section {
+	width: 90%;
+	margin: 25px auto 50px;
+}
+
+section > div {
+  position: relative;
+  background-color: grey;
+  padding: 15px 15px 15px 15px;
+  margin-bottom: 30px;
+  height: 1000px;
+}
+
+h2 {
+	font-size: 2em;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+#container1 {
+	overflow: hidden;
+}
+/** HEADER **/
+#header-nav {
+  background-color: purple;
+  border-radius: 0;
+  border: 0;
+}
+
+#collapsable-nav {
+	background-color: grey;
+}
+.navbar-brand {
+  padding-top: 10px;
+}
+
+.navbar-brand h1 {
+  text-align: left;
+  font-size: 1.8em;
+  color: orange;
+  margin-left: 0px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+	
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: orange;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: purple;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+
+@media (min-width: 992px){
+	
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+
+}
+
+@media (max-width: 767px) {
+  /* Header */
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+
+  /* End Header */
+
+}
